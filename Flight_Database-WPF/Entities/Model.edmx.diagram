@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="5c29ee6f6c044ffca00025c01ca7e918" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="FlightModel.Aircraft" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlightModel.Airline" Width="1.5" PointX="0.75" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlightModel.Airport" Width="1.5" PointX="0.75" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlightModel.Flight" Width="1.5" PointX="3" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlightModel.FlightType" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlightModel.Sector" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="FlightModel.Ticket" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <AssociationConnector Association="FlightModel.FK__Flights__Aircraf__2B3F6F97" ManuallyRouted="false" />
+        <AssociationConnector Association="FlightModel.FK__Flights__Airline__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="FlightModel.FK__Flights__StartAi__2C3393D0" ManuallyRouted="false" />
+        <AssociationConnector Association="FlightModel.FK__Sectors__Arrival__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="FlightModel.FK__Sectors__FlightI__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="FlightModel.FK__Tickets__FlightI__31EC6D26" ManuallyRouted="false" />
+        <AssociationConnector Association="FlightModel.FK__Tickets__FlightT__30F848ED" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
